@@ -1,7 +1,7 @@
 import Nav from './nav/Nav';
 import HeaderText from './headerText/HeaderText';
 import styles from './Header.module.css';
-import bgImage from '/background-img.jpg';
+import bgImage from '../../assets/images/background-img.jpg';
 
 const Header: React.FC = () => {
   const style = {
