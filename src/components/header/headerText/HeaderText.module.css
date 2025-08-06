@@ -1,4 +1,4 @@
-#headerText {
+.headerText {
   margin: 2%;
   white-space: nowrap;
   padding: 0px 0%;
@@ -7,7 +7,7 @@
   align-items: center;
   text-align: left;
 }
-#headerText h1 {
+.headerText h1 {
   font-size: clamp(32px, 6vw, 48px);
   white-space: nowrap;
   font-weight: bold;
@@ -15,7 +15,7 @@
   margin-bottom: 5px;
   margin-top: 2%;
 }
-#headerText p {
+.headerText p {
   font-size: 26px;
   margin: 5% 0;
   padding: flex;
@@ -37,18 +37,18 @@
 }
 
 @media (max-width: 768px) {
-  #headerText p {
+  .headerText p {
     font-size: 18px;
     margin: 20px 0;
   }
-  #headerText {
+  .headerText {
     margin: 10% 0;
     padding: 0;
     text-align: center;
     align-items: center;
   }
 
-  #headerText h1 {
+  .headerText h1 {
     font-size: clamp(24px, 5vw, 36px);
     margin-top: 30px;
   }

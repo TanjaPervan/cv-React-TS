@@ -2,7 +2,7 @@ import styles from './HeaderText.module.css';
 import { name, devRoles } from './headerTextData';
 
 const HeaderText: React.FC = () => (
-  <div id={styles.headerText}>
+  <div className={styles.headerText}>
     <h1>
       Hi, I'm <span className="silverText"> {name} </span> Pervan
     </h1>
