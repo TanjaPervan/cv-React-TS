@@ -1,5 +1,5 @@
 
-import type { DevRole } from '../types/headerText';
+import type { DevRole } from './headerTextType';
 
 export const name = 'Tanja';
 
