@@ -1,5 +1,6 @@
 {
   "name": "cv-react-ts",
+  "homepage": "https://tanjapervan.github.io/cv-React-TS",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,9 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.1.0",
