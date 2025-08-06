@@ -1,9 +1,9 @@
 import { navLinks } from './navLinkData';
-import './Nav.module.css';
+import styles from './Nav.module.css';
 
 const Nav: React.FC = () => (
   <div>
-    <nav>
+    <nav className={styles.nav}>
       <ul>
         {navLinks.map((link) => (
           <li key={link.href}>
