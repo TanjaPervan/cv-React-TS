@@ -24,6 +24,7 @@
 }
 
 .servicesList {
+  margin: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
@@ -97,6 +98,8 @@
 }
 
 .workList {
+  margin: 20px;
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 40px;
