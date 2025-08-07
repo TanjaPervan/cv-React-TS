@@ -20,7 +20,11 @@ body {
   color: white;
   padding: 0px 10%;
 }
-
+.subTitle {
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 400;
+}
 .silverText {
   background: linear-gradient(10deg, #11c6c0 0%, #ece3e3 90%, #075b58 100%);
   background-clip: text;
