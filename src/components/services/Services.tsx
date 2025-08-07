@@ -5,7 +5,7 @@ const Services = () => (
     <div className="container">
       <h1 className="subTitle">My Services</h1>
       <div className={styles.servicesList}>
-        <div className={styles.clickable}>
+        <div className={`${styles.servicesSection} ${styles.clickable}`}>
           <i className="fa-solid fa-code"></i>
           <h2 className="silverText">Web Development</h2>
           <p>
@@ -14,7 +14,7 @@ const Services = () => (
           </p>
           <a href="#">learn more</a>
         </div>
-        <div className="clickable">
+        <div className={`${styles.servicesSection} ${styles.clickable}`}>
           <i className="fa-brands fa-app-store"></i>
           <h2 className="silverText">Mobile App Development</h2>
           <p>
