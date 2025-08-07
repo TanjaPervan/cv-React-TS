@@ -1,0 +1,118 @@
+.tabSection {
+  background-size: cover;
+  /* background-position: 1vw 1vw; */
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+
+  min-height: 100vh;
+  padding: 1rem 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+
+  position: static;
+  overflow: hidden;
+
+  margin-top: 10px;
+  margin-left: 28%;
+  width: 100%;
+}
+
+.tabTitles {
+  display: inline-block;
+  margin-top: 5%;
+  font-size: 1.5rem;
+  font-weight: 900;
+  position: relative;
+}
+
+.tabLink {
+  color: #c5c3c3;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.tabLink::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #10a5a0;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+  border-radius: 2px;
+}
+
+.active::after {
+  width: 100%;
+}
+
+.tabContent {
+  margin-top: 2rem;
+}
+
+.tabContent ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tabContent ul li {
+  list-style: none;
+  margin: 20px 0;
+  font-size: 1rem;
+  color: #424141;
+  min-width: 0;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.tabContent ul li span {
+  color: #bbb8b8;
+  font-size: 19px;
+}
+
+.jobCompany,
+.degree,
+.skillGroup {
+  font-size: 16px;
+  color: #bbb8b8;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.jobDates,
+.school {
+  font-size: 15px;
+  color: #bbb8b8;
+  display: block;
+}
+.skillGroup {
+  display: block;
+  font-size: 16px;
+  color: #bbb8b8;
+  line-height: 0.2;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 768px) {
+  .tabSection {
+    margin-left: 10px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vw;
+  }
+  .tabTitles {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+}

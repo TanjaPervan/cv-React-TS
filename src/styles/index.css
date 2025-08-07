@@ -28,6 +28,16 @@ body {
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
+.darkText {
+  background: linear-gradient(10deg, #11c6c0, #075b58);
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  text-wrap: initial;
+}
 
 .green-shine {
   width: 100%;

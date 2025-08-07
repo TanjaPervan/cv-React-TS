@@ -32,14 +32,23 @@ export const educationItems: EducationItem[] = [
 ];
 
 export const skillGroups: SkillGroup[][] = [
-  ['JS / TS / HTML / CSS', 'React', 'React Native'],
-  ['Flutter / Dart', 'Java / Kotlin', 'C / C++', 'MySQL'],
-  [
-    'Clean Architecture',
-    'Design Patterns',
-    'Data Structures',
-    'Algorithms',
-    'RESTful APIs',
-  ],
-  ['GIT', 'CI/CD', 'Figma', 'JIRA'],
+  ['JS / TS / HTML / CSS'],
+  ['React'],
+  ['React Native'],
+  ['_____'],
+  ['Flutter / Dart'],
+  ['Java / Kotlin'],
+  ['C / C++'],
+  ['MySQL'],
+  ['_____'],
+  ['Clean Architecture'],
+  ['Design Patterns'],
+  ['Data Structures'],
+  ['Algorithms'],
+  ['RESTful APIs'],
+  ['_____'],
+  ['GIT'],
+  ['CI/CD'],
+  ['Figma'],
+  ['JIRA'],
 ];
