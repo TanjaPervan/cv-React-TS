@@ -1,0 +1,27 @@
+/* .scrollToTop {
+  position: fixed;
+  bottom: 50px;
+  right: 24px;
+  display: none;
+  background: #24e7f2;
+  color: #111;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  border: none;
+  font-size: 1.7em;
+  z-index: 99;
+  box-shadow: 0 2px 8px #0004;
+} */
+
+.scrollToTop {
+  position: fixed;
+  bottom: 150px;
+  right: 24px;
+  /* background: #24e7f2; */
+  border: 20px solid #075b58;
+  border-radius: 40%;
+  color: white;
+  z-index: 99999;
+  box-shadow: 0 1px 1px rgba(78, 212, 222, 0.267);
+}

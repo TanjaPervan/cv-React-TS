@@ -82,6 +82,7 @@
   background: #232323;
   min-height: 320px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -117,6 +118,7 @@
   bottom: 0;
   overflow: hidden;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -277,21 +279,6 @@ input:invalid {
   font-size: 18px;
 }
 
-.scrollToTop {
-  position: fixed;
-  bottom: 50px;
-  right: 24px;
-  display: none;
-  background: #24e7f2;
-  color: #111;
-  border-radius: 50%;
-  width: 46px;
-  height: 46px;
-  border: none;
-  font-size: 1.7em;
-  z-index: 99;
-  box-shadow: 0 2px 8px #0004;
-}
 @media (max-width: 768px) {
   .contactLeft {
     margin: 10px;

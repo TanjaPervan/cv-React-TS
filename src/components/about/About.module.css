@@ -74,6 +74,7 @@
 @media (max-width: 768px) {
   .titleRow {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .subTitle {
