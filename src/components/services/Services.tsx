@@ -23,7 +23,7 @@ const Services = () => (
           </p>
           <a href="#">learn more</a>
         </div>
-        <div className={styles.clickable}>
+        <div className={`${styles.servicesSection} ${styles.clickable}`}>
           <i className="fa-solid fa-crop-simple"></i>
           <h2 className="silverText">UI/UX Implementation</h2>
           <p>

@@ -59,7 +59,9 @@
   display: inline-block;
   margin-top: 20px;
 }
-
+.servicesSection {
+  margin-bottom: 80px;
+}
 .servicesList div:hover {
   background: #043938;
   transform: translateY(-10px);
@@ -99,7 +101,6 @@
 
 .workList {
   margin: 20px;
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-gap: 40px;
@@ -174,9 +175,13 @@
 
 /* ------------- Contact ------------- */
 .contactLeft {
+  margin-top: 70px;
+
   flex-basis: 35%;
 }
 .contactRight {
+  margin-top: 90px;
+
   flex-basis: 60%;
 }
 
@@ -214,7 +219,19 @@
   background: #075b58;
   transform: scale(1.1);
 }
+.wide {
+  font-size: 18px;
+  cursor: pointer;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 .contactRight form {
   width: 100%;
 }
@@ -240,11 +257,11 @@ input:invalid {
   border-color: #711414;
 }
 
-form .btn2 {
+/* form .btn2 {
   font-size: 18px;
   padding: 14px 0;
   cursor: pointer;
-}
+} */
 
 .copyright {
   width: 100%;
@@ -274,4 +291,17 @@ form .btn2 {
   font-size: 1.7em;
   z-index: 99;
   box-shadow: 0 2px 8px #0004;
+}
+@media (max-width: 768px) {
+  .contactLeft {
+    margin: 10px;
+  }
+  .contactRight {
+    margin: 10px;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center; /* Centriraj sadržaj */
+    text-align: center;
+  }
 }
