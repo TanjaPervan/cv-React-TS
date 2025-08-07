@@ -1,69 +1,127 @@
-# React + TypeScript + Vite
+# 💼 Tanja Pervan - Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! 👋
+Built using **React**, **TypeScript**, and **Vite**, this site showcases my work, skills, and contact information in a clean and responsive format.
 
-Currently, two official plugins are available:
+🔗 **Live site:** [https://tanjaper.github.io/cv-React-TS/](https://tanjaper.github.io/cv-React-TS/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 📱 Fully responsive layout for desktop and mobile
+- 🚀 Smooth scroll and scroll-to-top button
+- 🎯 Organized by sections:
+  - About Me
+  - Skills (tabbed view)
+  - Services
+  - My Work (with images and hover effects)
+  - Contact Form with input validation
+- 🎨 Styled using CSS Modules
+- 📦 Deployed on GitHub Pages
+- 💡 Icons via FontAwesome
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **React** + **TypeScript**
+- **Vite**
+- **CSS Modules**
+- **FontAwesome**
+- **GitHub Pages**
+
+---
+
+## 🗂️ Folder Structure
+
+```
+cv-React-TS/
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── About/
+│   │   ├── SkillsTabs/
+│   │   ├── Services/
+│   │   ├── Work/
+│   │   ├── Contact/
+│   │   └── ScrollToTop/
+│   ├── styles/
+│   ├── types/
+│   ├── data/
+│   ├── App.tsx
+│   └── main.tsx
+└── vite.config.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Running Locally
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/TanjaPer/cv-React-TS.git
+cd cv-React-TS
 ```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the development server**
+
+```bash
+npm run dev
+```
+
+4. **Build for production**
+
+```bash
+npm run build
+```
+
+---
+
+## 📦 Deployment
+
+This project is deployed using **GitHub Pages**.
+Ensure your `vite.config.ts` contains:
+
+```ts
+export default defineConfig({
+  base: '/cv-React-TS/',
+  plugins: [react()],
+});
+```
+
+And push your `dist/` folder to the `gh-pages` branch.
+
+---
+
+## 📬 Contact
+
+You can reach me through the contact form on the website or via:
+
+- 📧 Email: tanya.pervan@gmail.com
+- 📱 Phone: +381 63 7654 051
+- 🔗 [LinkedIn](https://rs.linkedin.com/in/tanja-pervan-3575a61b9)
+- 💻 [GitHub](https://github.com/TanjaPer)
+
+---
+
+## ❤️ Credits
+
+Made with love and a lot of late-night coffee ☕ by Tanja Pervan.
+
+Feel free to explore, fork, and use this template for your own portfolio!
+
+---
+
+## 📝 License
+
+This project is open-source and available under the [MIT License](LICENSE).
